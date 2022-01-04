@@ -2,7 +2,7 @@
 name: Hotfix Template
 about: Hotfix가 필요한 작업에 대한 템플릿입니다.
 title: 'fix: '
-labels: ''
+labels: 'Priority: Critical, Status: To Do, Type: Hotfix'
 assignees: ''
 
 ---
