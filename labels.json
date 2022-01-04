@@ -54,6 +54,11 @@
     "description": "처리하고 리뷰 중인 이슈"
   },
   {
+    "name": "Status: To Do",
+    "color": "757c06",
+    "description": "처리해야 되는 이슈"
+  },
+  {
     "name": "Type: Bugfix/Function",
     "color": "d73a4a",
     "description": "정상 동작하지 않는 기능",
