@@ -95,8 +95,23 @@
     "description": "급하게 수정해야 되는 사항"
   },
   {
-    "name": "Type: Release",
-    "color": "c2e0c6",
-    "description": "배포 관련 이슈"
+    "name": "Release: major",
+    "color": "5319E7",
+    "description": "메이저배포 ie. 1.x.x"
+  },
+  {
+    "name": "Release: minor",
+    "color": "0E8A16",
+    "description": "마이너배포 ie. x.1.x"
+  },
+  {
+    "name": "Release: patch",
+    "color": "FBCA04",
+    "description": "패치배포 ie. x.x.1"
+  },
+  {
+    "name": "skip-changelog",
+    "color": "F9966b",
+    "description": "Release 내용에 포함시키지 않음 ie. master 병합 리퀘스트"
   }
 ]
