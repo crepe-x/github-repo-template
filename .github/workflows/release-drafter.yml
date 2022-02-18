@@ -1,0 +1,12 @@
+name: Release Drafter caller
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  call_update_release_draft:
+    uses: crepex/.github/.github/workflows/release-drafter.yml@master
+    secrets:
+      token: ${{ secrets.GITHUB_TOKEN }}

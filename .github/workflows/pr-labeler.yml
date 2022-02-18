@@ -1,0 +1,11 @@
+name: Auto Label PRs caller
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  call-labeler:
+    uses: crepex/.github/.github/workflows/pr-labeler.yml@master
+    secrets:
+      token: ${{ secrets.GITHUB_TOKEN }}
