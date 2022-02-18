@@ -5,7 +5,7 @@ on:
     types: [opened]
 
 jobs:
-  call-labeler:
+  call_labeler:
     uses: crepex/.github/.github/workflows/pr-labeler.yml@master
     secrets:
       token: ${{ secrets.GITHUB_TOKEN }}
