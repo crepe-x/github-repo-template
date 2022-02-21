@@ -2,3 +2,5 @@ pull-request/feature: 'feature/*'
 pull-request/fix: 'fix/*'
 pull-request/hotfix: 'hotfix/*'
 pull-request/skip-changelog: ['development']
+release/minor: ['feature/*']
+release/patch: ['fix/*', 'hotfix/*']
